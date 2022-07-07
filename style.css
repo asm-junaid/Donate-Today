@@ -1,0 +1,215 @@
+body h1
+{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body p
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.top-banner{
+    background-image: url(images/donation12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.banner-head
+{
+    font-size: 60px;
+    color: white;
+}
+.banner-para
+{
+    font-size: 20px;
+    text-align: center;
+    width: 45%;
+    color: white;
+}
+.button
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(247, 109, 45);
+    padding: 18px 28px;
+    border-radius: 5px;
+}
+.donate
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.donate-head h1
+{
+    text-align: center;
+    font-size: 45px;
+}
+.donate-head p
+{
+    font-size: 20px;
+    text-align: center;
+}
+.donate-today
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.donate-today-header
+{
+    font-size: 55px;
+}
+.donate-today p
+{
+    text-align: center;
+    font-size: 20px;
+}
+.ammount
+{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 40px;
+}
+.ammount h1
+{
+    font-size: 30px;
+}
+.taka
+{
+    padding: 30px 25px;
+}
+.other-taka 
+{
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px; 
+    background-color: rgba(197, 197, 197, 0.377);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.selected
+{
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: rgb(248, 212, 203);
+}
+.input-taka
+{
+    padding-bottom: 10px;
+}
+.custom-ammount
+{
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    width: 700px;
+    height: 55px;
+}
+.donate-plan
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.donate-plan-head h1
+{
+    font-size: 55px;
+}
+.donate-plan-head p
+{
+    font-size: 20px;
+}
+.donate-plan-options
+{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+.plans1
+{
+    
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: rgba(190, 227, 245, 0.397);
+    text-align: left;
+    margin: 10px;
+}
+.plans2
+{
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: rgba(240, 212, 240, 0.473);
+    text-align: left;
+    margin: 10px;
+}
+.plans3
+{
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: antiquewhite;
+    text-align: left;
+    margin: 10px;
+}
+.get-update
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.get-update-header h1
+{
+    font-size: 50px;
+}
+.get-update-header p
+{
+    font-size: 20px;
+}
+.get-update-email
+{
+    display: flex;
+    align-items: center;
+    padding: 80px 200px;
+    background-color: rgba(228, 205, 163, 0.603);
+}
+.get-update-email input
+{
+    text-align: left;
+    height: 50px;
+    width: 400px;
+    font-size: 30px;
+}
+footer
+{
+    background-color: black;
+    color: orangered;
+    margin: 0px;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+}
+footer h1
+{
+    font-family: 'Dancing Script', cursive;
+}
+footer h3
+{
+    color: aqua;
+    font-family: 'Dancing Script', cursive;
+}
